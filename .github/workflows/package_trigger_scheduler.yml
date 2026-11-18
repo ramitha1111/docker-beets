@@ -11,6 +11,7 @@ permissions:
 jobs:
   package-trigger-scheduler:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: linuxserver/github-workflows/.github/actions/checkout@v1
         with:
